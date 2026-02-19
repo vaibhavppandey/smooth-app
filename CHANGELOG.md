@@ -1,5 +1,62 @@
 # Changelog
 
+## [4.24.0](https://github.com/openfoodfacts/smooth-app/compare/v4.23.0...v4.24.0) (2026-02-19)
+
+
+### 🚀 Features
+
+* 7227 - stale background tasks ([#7384](https://github.com/openfoodfacts/smooth-app/issues/7384)) ([fc3afa5](https://github.com/openfoodfacts/smooth-app/commit/fc3afa524991f4ccf5d816fe408f7e6f873a1bf7))
+* 7345 - hunger games - access to best image quality ([#7356](https://github.com/openfoodfacts/smooth-app/issues/7356)) ([f288634](https://github.com/openfoodfacts/smooth-app/commit/f28863479334e9069a81f8364a1df55d3b1daac0))
+* Custom AutoSizeText impl + listOfChoices with autosize ([#7374](https://github.com/openfoodfacts/smooth-app/issues/7374)) ([4eb80bf](https://github.com/openfoodfacts/smooth-app/commit/4eb80bf5c6ecafbe53602e3e2ad7642a3ba30a63))
+* For Me tab (M4) ([#7333](https://github.com/openfoodfacts/smooth-app/issues/7333)) ([a2a2674](https://github.com/openfoodfacts/smooth-app/commit/a2a2674dc7b876ac91aab610b7b804c472674915))
+* New homepage ([#7340](https://github.com/openfoodfacts/smooth-app/issues/7340)) ([4e3f862](https://github.com/openfoodfacts/smooth-app/commit/4e3f8624c6b6e7a2c6e4e63da1deb0615f2a2a8b))
+* Product page squares ([#7257](https://github.com/openfoodfacts/smooth-app/issues/7257)) ([bbecf59](https://github.com/openfoodfacts/smooth-app/commit/bbecf5982cad921ddd0e6c42870006f3f5d2ac81))
+
+
+### 🐛 Bug Fixes
+
+* 7350 - hunger games questions use page numbers ([#7368](https://github.com/openfoodfacts/smooth-app/issues/7368)) ([8147b2a](https://github.com/openfoodfacts/smooth-app/commit/8147b2a12e75f6d8c9f03e01041a1be1199fd56b))
+* 7350 - let Robotoff manage the unicity of questions ([#7417](https://github.com/openfoodfacts/smooth-app/issues/7417)) ([b143f3d](https://github.com/openfoodfacts/smooth-app/commit/b143f3d685feeed7efc7c65f054cad7a204c8455))
+* 7379 - currency fix decimals for prices ([#7416](https://github.com/openfoodfacts/smooth-app/issues/7416)) ([5a76910](https://github.com/openfoodfacts/smooth-app/commit/5a76910c0df94ded06621bd60cb6421331590b04))
+* Add uriHelper parameter to all Robotoff API calls ([#6624](https://github.com/openfoodfacts/smooth-app/issues/6624)) ([#7419](https://github.com/openfoodfacts/smooth-app/issues/7419)) ([b6b5d45](https://github.com/openfoodfacts/smooth-app/commit/b6b5d45d63026524ebd4b2f604e1a71508366e61))
+* Correct spelling in price metrics title ([bb6409d](https://github.com/openfoodfacts/smooth-app/commit/bb6409dee0e29a09659ecc4e27fc2675ca04bce7))
+* Learn more opens simplified panel instead of full ([#7405](https://github.com/openfoodfacts/smooth-app/issues/7405)) ([8481b9b](https://github.com/openfoodfacts/smooth-app/commit/8481b9b2e46d162215d3b5b568dfeb84d3c9490c))
+* Misc UI improvements ([#7387](https://github.com/openfoodfacts/smooth-app/issues/7387)) ([7a48bf3](https://github.com/openfoodfacts/smooth-app/commit/7a48bf368e8208e9f031c3dcb7a5d962f35e2c00))
+
+
+### 🤖 Automation
+
+* Bump version from 4.23.0 to 4.24.0 for Testflight to work ([a25941d](https://github.com/openfoodfacts/smooth-app/commit/a25941dd4a7e41a7565864b9273bd464e8a768fd))
+* Delete .github/workflows/README_regenerate_translations.md ([687f7e4](https://github.com/openfoodfacts/smooth-app/commit/687f7e41ab850611069fd87da2be6576b803d024))
+* Delete .github/workflows/regenerate-translations.yml ([ac6b57c](https://github.com/openfoodfacts/smooth-app/commit/ac6b57cc684f9ed6e2d7353f3f40a722d51da71c))
+
+
+### 🛠 Miscellaneous
+
+* **deps:** bump actions/setup-java from 5.1.0 to 5.2.0 ([#7383](https://github.com/openfoodfacts/smooth-app/issues/7383)) ([9477406](https://github.com/openfoodfacts/smooth-app/commit/947740640e17f58db9424839010545ccac1fb719))
+* **deps:** bump crowdin/github-action from 2.13.0 to 2.14.0 ([#7376](https://github.com/openfoodfacts/smooth-app/issues/7376)) ([8463b5a](https://github.com/openfoodfacts/smooth-app/commit/8463b5a67dc639ff88f46d5e1c420643a33dbaf0))
+* **deps:** bump crowdin/github-action from 2.14.0 to 2.14.1 ([#7418](https://github.com/openfoodfacts/smooth-app/issues/7418)) ([cdbd0b8](https://github.com/openfoodfacts/smooth-app/commit/cdbd0b847325a9111fa165168968870166b69f7e))
+* **deps:** bump fastlane in /packages/smooth_app/android ([#7364](https://github.com/openfoodfacts/smooth-app/issues/7364)) ([2d2d70b](https://github.com/openfoodfacts/smooth-app/commit/2d2d70b7ddf01dbc0339b6165a13a86d0328e146))
+* **deps:** bump fastlane in /packages/smooth_app/android ([#7377](https://github.com/openfoodfacts/smooth-app/issues/7377)) ([2532a54](https://github.com/openfoodfacts/smooth-app/commit/2532a549ef8e4e3fcf04dee812943dea50f6c814))
+* **deps:** bump fastlane in /packages/smooth_app/android ([#7406](https://github.com/openfoodfacts/smooth-app/issues/7406)) ([39ab9f0](https://github.com/openfoodfacts/smooth-app/commit/39ab9f0940fbb413244a0b11399e2e7d0be96026))
+* **deps:** bump fastlane in /packages/smooth_app/android ([#7410](https://github.com/openfoodfacts/smooth-app/issues/7410)) ([f402454](https://github.com/openfoodfacts/smooth-app/commit/f4024543f3e27066faa528d9119d07bc4625f26c))
+* **deps:** bump fastlane in /packages/smooth_app/ios ([#7365](https://github.com/openfoodfacts/smooth-app/issues/7365)) ([b7dd298](https://github.com/openfoodfacts/smooth-app/commit/b7dd2987512e97d99a291446d883e2fed602ff49))
+* **deps:** bump fastlane in /packages/smooth_app/ios ([#7378](https://github.com/openfoodfacts/smooth-app/issues/7378)) ([068d6f4](https://github.com/openfoodfacts/smooth-app/commit/068d6f4a7df1c182b07f273aa811fd8aa42ea949))
+* **deps:** bump fastlane in /packages/smooth_app/ios ([#7407](https://github.com/openfoodfacts/smooth-app/issues/7407)) ([cfcca5c](https://github.com/openfoodfacts/smooth-app/commit/cfcca5c21e8fab755e0fb12e2a94026c1119e541))
+* **deps:** bump fastlane in /packages/smooth_app/ios ([#7409](https://github.com/openfoodfacts/smooth-app/issues/7409)) ([47b4f1f](https://github.com/openfoodfacts/smooth-app/commit/47b4f1fb69b7bffcdc177c0a7925963d41b67174))
+* **deps:** bump file_picker in /packages/smooth_app ([#7395](https://github.com/openfoodfacts/smooth-app/issues/7395)) ([4ba32f0](https://github.com/openfoodfacts/smooth-app/commit/4ba32f053965823ffd5c2733ba4f6239e159e7a3))
+* **deps:** bump JamesIves/github-pages-deploy-action ([#7357](https://github.com/openfoodfacts/smooth-app/issues/7357)) ([04225b0](https://github.com/openfoodfacts/smooth-app/commit/04225b02df5fa7fcd31a3a5688659d12625ed883))
+* **deps:** bump mockito from 5.6.1 to 5.6.3 in /packages/smooth_app ([#7358](https://github.com/openfoodfacts/smooth-app/issues/7358)) ([2cee7a3](https://github.com/openfoodfacts/smooth-app/commit/2cee7a3a747c0a80acab9226f4ac7d31086fb8b7))
+* **deps:** bump rive from 0.14.0 to 0.14.1 in /packages/smooth_app ([#7360](https://github.com/openfoodfacts/smooth-app/issues/7360)) ([bea30d9](https://github.com/openfoodfacts/smooth-app/commit/bea30d9b34a720c2c7bdd3df284fad607eb13350))
+* **deps:** bump sentry_flutter in /packages/smooth_app ([#7348](https://github.com/openfoodfacts/smooth-app/issues/7348)) ([650e37f](https://github.com/openfoodfacts/smooth-app/commit/650e37fc8c066e91385c428f25145c13c93a6bc9))
+* **deps:** bump sentry_flutter in /packages/smooth_app ([#7366](https://github.com/openfoodfacts/smooth-app/issues/7366)) ([4b3d311](https://github.com/openfoodfacts/smooth-app/commit/4b3d311500878ceaab01da5957f375e6ed5a01a0))
+* **deps:** bump webview_flutter in /packages/smooth_app ([#7352](https://github.com/openfoodfacts/smooth-app/issues/7352)) ([b2eae0f](https://github.com/openfoodfacts/smooth-app/commit/b2eae0f28ef18c86d03ca2d60930e8d91936252e))
+* Ignore generated translations files ([#7367](https://github.com/openfoodfacts/smooth-app/issues/7367)) ([ef7611c](https://github.com/openfoodfacts/smooth-app/commit/ef7611ca0eb5bc236aa61725f125bbdc8b444753))
+* New translations to review and merge ([#7337](https://github.com/openfoodfacts/smooth-app/issues/7337)) ([8c9cc9d](https://github.com/openfoodfacts/smooth-app/commit/8c9cc9dca647b8da098879985b64ab76e7816370))
+* New translations to review and merge ([#7385](https://github.com/openfoodfacts/smooth-app/issues/7385)) ([44551b7](https://github.com/openfoodfacts/smooth-app/commit/44551b7c9b03968cff283462adfb4dfcd2ca0cf1))
+* New translations to review and merge ([#7393](https://github.com/openfoodfacts/smooth-app/issues/7393)) ([9a26133](https://github.com/openfoodfacts/smooth-app/commit/9a261334b7807922a0802410f319e232887e50e9))
+* regenerate translation files ([#7343](https://github.com/openfoodfacts/smooth-app/issues/7343)) ([3fdd20f](https://github.com/openfoodfacts/smooth-app/commit/3fdd20fabc2fdc5fbceb4acd038c6b00fe94422b))
+
 ## [4.23.0](https://github.com/openfoodfacts/smooth-app/compare/v4.22.3...v4.23.0) (2026-01-05)
 
 
